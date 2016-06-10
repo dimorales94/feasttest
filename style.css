@@ -15,9 +15,7 @@ p, ul{
 	font-style:normal;
 }
 
-img{
-	border: 0;
-}
+
 
 h1, #pixels{
 	font-family:"Bodoni", serif;
@@ -26,11 +24,18 @@ h1, #pixels{
 	font-style:normal;
 }
 
-h2{
+.title{
 	font-family:"Bodoni", serif;
-	font-size-adjust:0.531;
-	font-weight:500;
+	font-size:100px;
 	font-style:normal;
+	padding: 80px 0 0 0;
+	text-align: center;
+}
+.sub{
+	font-size: 30px;
+	text-align: center;
+
+
 }
 
 
@@ -51,11 +56,6 @@ h2{
 	margin: 0 20px 0 0;
 }
 
-.center{
-	font-size: 2.5em;
-	padding: 80px 0 0 0;
-	text-align: center;
-}
 
 #nav{
 	list-style: none;
@@ -67,19 +67,15 @@ h2{
 	margin: 0 0 15px 0;	
 }
 
-#header, #intro, #second{
-	width: 100%;
-}
 
 #intro{
-	background:url(http://i67.tinypic.com/2zqrgcz.png) no-repeat fixed;
+	background:url(http://i66.tinypic.com/ws496b.png) no-repeat fixed;
 	color: white;
 	height: 600px;
 	margin: 0 auto;
 	padding: 0;
-	background-size: 100%;
-	
-
+	background-size: cover;
+	background-color: white;
 }
 
 #second{
@@ -89,9 +85,7 @@ h2{
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 0;
-	background-size: 100%;
-
-
+	background-size: cover;
 
 
 }
@@ -103,46 +97,44 @@ h2{
 	padding: 0;
 	position: absolute;
 	z-index: 200;
-	background-size: 100%;
-		
-
-
+	background-size: cover;
 }
 
 #third{
-	background: url(http://i63.tinypic.com/2duatd4.png) no-repeat fixed;
+	background: url(http://i64.tinypic.com/2a8givp.jpg) no-repeat fixed;
 	color: white;
 	height: 600px;
 	padding: 0;	
 	margin: 0 auto;
-	background-size: 100%;
-	
-
-
+	background-size: cover;
 }
 
 #fifth{
-	background: white;
+	background: url(http://static.tumblr.com/8xwvkgq/83Jm0uveb/wood.png) no-repeat fixed;
 	height: 600px;
 	margin: 0 auto;
 	padding: 0;
-	background-size: 100%;
-
+	background-size: cover;
 }
 
 .story{
 	margin: 0 auto;
 	overflow: auto;
-	padding: ;
+	padding:10px;
 }
 
 .story .float-left, .story .float-right{
 	padding: 100px;
-	position: ;
 }
 
 .story_container {
 	background-size: 100%;
 	padding: 100px; 
 }
+#quotes{
+	float: right;
+	margin: 0 20px 0 0;
+	font-style:italic; 
+	font-family: "bodoni;
 
+}
