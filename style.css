@@ -69,7 +69,7 @@ h1, #pixels{
 
 
 #intro{
-	background:url(http://i66.tinypic.com/ws496b.png) no-repeat fixed;
+	background:url(images/img01.png) no-repeat fixed;
 	color: white;
 	height: 600px;
 	margin: 0 auto;
@@ -79,7 +79,7 @@ h1, #pixels{
 }
 
 #second{
-	background: url(http://i63.tinypic.com/2ypddsm.png) no-repeat fixed;
+	background: url(images/bg.png) no-repeat fixed;
 	color: white;
 	height: 600px;
 	margin: 0 auto;
@@ -91,7 +91,7 @@ h1, #pixels{
 }
 
 #second .bg{
-	background: url(http://i67.tinypic.com/5yhgtx.png) no-repeat fixed;
+	background: url(images/bg.png) no-repeat fixed;
 	height: 600px;
 	margin: 0 auto;
 	padding: 0;
@@ -101,7 +101,7 @@ h1, #pixels{
 }
 
 #third{
-	background: url(http://i64.tinypic.com/2a8givp.jpg) no-repeat fixed;
+	background: url(images/third.jpg) no-repeat fixed;
 	color: white;
 	height: 600px;
 	padding: 0;	
@@ -110,7 +110,7 @@ h1, #pixels{
 }
 
 #fifth{
-	background: url(http://static.tumblr.com/8xwvkgq/83Jm0uveb/wood.png) no-repeat fixed;
+	background: url(images/wood.png) no-repeat fixed;
 	height: 600px;
 	margin: 0 auto;
 	padding: 0;
