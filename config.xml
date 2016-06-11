@@ -1,1 +1,27 @@
-<plugin name="net.yoik.cordova.plugins.screenorientation" spec="1.3.1" source="pgb" />
+<?xml version="1.0" encoding="UTF-8" ?>
+    <!-- For ID, just put your name in between the com and example -->
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "https://github.com/dimorales94/feasttest.git"
+        versionCode = "10" 
+        version     = "1.0.0" >
+
+    <!-- versionCode is optional and Android only -->
+    
+    <!-- Name of your app -->
+    <name>Feast App</name>
+
+    <!-- Description of your App -->
+    <description>
+        Restaraunt app
+    </description>
+
+    <!-- Author of the app ie, you) -->
+    <author href="https://build.phonegap.com" email="support@phonegap.com">
+        Diana Morales
+    </author>
+
+    <!-- Your plugin code -->
+    <gap:plugin name="com.phonegap.plugin.statusbar" />
+
+</widget>
